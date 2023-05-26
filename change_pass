@@ -1,0 +1,13 @@
+---
+- name: test_awx
+  hosts: all
+  become: true
+  vars:
+    myuser: "root"
+    mypassword: "Vnpt@123"
+  tasks:
+    - name: change password
+      ansible.builtin.user:
+        name: "{{ myuser }}"
+        state: present
+        password: "{{ mypassword | password_hash('sha512') }}"
