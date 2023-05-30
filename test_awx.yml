@@ -1,5 +1,5 @@
 ---
-- name: Test_change_pass
+- name: Test_changepass
   hosts: test
   become: true
   vars:
