@@ -1,6 +1,6 @@
 ---
 - name: Test_changepass
-  hosts: test
+  hosts: all
   become: true
   vars:
     myuser: "root"
