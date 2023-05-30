@@ -1,6 +1,6 @@
 ---
-- name: test_awx
-  hosts: test
+- name: Test_change_pass
+  hosts: test_75
   become: true
   vars:
     myuser: "root"
