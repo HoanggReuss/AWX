@@ -1,5 +1,5 @@
 ---
-- name: Test_change_pass
+- name: Test_ansible
   hosts: test_75
   become: true
   vars:
