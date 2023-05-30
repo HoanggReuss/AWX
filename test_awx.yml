@@ -1,6 +1,6 @@
 ---
 - name: Test_ansible
-  hosts: test_75
+  hosts: test_35
   become: true
   vars:
     myuser: "root"
