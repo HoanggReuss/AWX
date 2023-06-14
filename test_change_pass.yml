@@ -4,7 +4,7 @@
   become: true
   vars:
     myuser: "root"
-    mypassword: "Vnpt@2023"
+    mypassword: "1"
   tasks:
     - name: change password
       ansible.builtin.user:
